@@ -130,7 +130,7 @@ jQuery(document).ready(function() {
 		if (QR) {
 			MainBox.css('background-image','url('+QR+')');
 		}
-		$('#DonateText,#donateBox').addClass('blur');
+		$('#DonateText,#donateBox,#github').addClass('blur');
 		QRBox.fadeIn(300);
 	}
 	//	Buttons
@@ -153,8 +153,8 @@ jQuery(document).ready(function() {
 		}
 	});
 
-	QRBox.click(function(event) {
-		$(this).fadeOut(300);
-		$('#DonateText,#donateBox').removeClass('blur');
+	MainBox.click(function(event) {
+		QRBox.fadeOut(300);
+		$('#DonateText,#donateBox,#github').removeClass('blur');
 	});
 });

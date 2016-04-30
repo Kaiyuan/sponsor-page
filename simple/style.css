@@ -132,11 +132,11 @@ a{
 	top: 0;
 	left: 0;
 	z-index: 1;
-	cursor: pointer;
 	background-color: rgba(255,255,255,0.3);
 	display: none;
 }
 #MainBox {
+	cursor: pointer;
 	position: absolute;
 	text-align: center;
 	width: 200px;
