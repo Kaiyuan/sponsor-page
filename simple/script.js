@@ -131,7 +131,9 @@ jQuery(document).ready(function() {
 			MainBox.css('background-image','url('+QR+')');
 		}
 		$('#DonateText,#donateBox,#github').addClass('blur');
-		QRBox.fadeIn(300);
+		QRBox.fadeIn(300,function(argument) {
+			MainBox.addClass('showQR');
+		});
 	}
 	//	Buttons
 	// $('body').on('click', '#PayPal', function() {
@@ -154,7 +156,11 @@ jQuery(document).ready(function() {
 	});
 
 	MainBox.click(function(event) {
-		QRBox.fadeOut(300);
-		$('#DonateText,#donateBox,#github').removeClass('blur');
+		MainBox.removeClass('showQR');
+		setTimeout (function(a) {
+			QRBox.fadeOut(300);
+			$('#DonateText,#donateBox,#github').removeClass('blur');
+		},300);
+
 	});
 });
