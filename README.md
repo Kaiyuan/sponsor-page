@@ -2,6 +2,10 @@
 
 这是一系列整理好的捐赠按钮样式。
 
+![Donate-Page](https://i.imgur.com/Cz0c9F5.gif)
+
+
+
 #### 直接 Fork 之后需要修改以下内容为你的账户
 
 
