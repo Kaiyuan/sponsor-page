@@ -1,6 +1,9 @@
 jQuery(document).ready(function() {
 	var QRBox	=	$('#QRBox');
 	var MainBox	=	$('#MainBox');
+	var BTCQR	=	'images/BTCQR.png';	// 二维码路径
+	var AliPayQR	=	'images/AliPayQR.png';
+	var WeChanQR	=	'images/WeChanQR.png';
 	// PayPal 账户建议使用 Unicode
 	var ppbusiness	=	"\u0073\u0065\u0061\u006c\u006f\u0075\u0072\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d";
 
@@ -146,12 +149,12 @@ jQuery(document).ready(function() {
 		if (thisID === 'PayPal') {
 			ppBuy();
 		} else if (thisID === 'BTC') {
-			showQR('images/BTCQR.png');	// 传入对应二维码
+			showQR(BTCQR);
 			new Clipboard('#BTCBn');
 		} else if (thisID === 'AliPay') {
-			showQR('images/AliPayQR.png');
+			showQR(AliPayQR);
 		} else if (thisID === 'WeChat') {
-			showQR('images/WeChanQR.png');
+			showQR(WeChanQR);
 		}
 	});
 
