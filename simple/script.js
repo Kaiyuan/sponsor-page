@@ -146,7 +146,7 @@ jQuery(document).ready(function() {
 		if (thisID === 'PayPal') {
 			ppBuy();
 		} else if (thisID === 'BTC') {
-			showQR('images/BTCQR.png');
+			showQR('images/BTCQR.png');	// 传入对应二维码
 			new Clipboard('#BTCBn');
 		} else if (thisID === 'AliPay') {
 			showQR('images/AliPayQR.png');
