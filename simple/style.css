@@ -261,6 +261,26 @@ a{
 	}
 	to {
 		opacity: 1;
-		transform: rotateX(0deg)；
+	}
+}
+#MainBox.hideQR {
+	opacity: 1;
+    animation-name:hideQR;
+    animation-duration:0.5s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+    -webkit-animation:hideQR 0.5s ease-in-out 0s 1 normal forwards;
+}
+@keyframes hideQR {
+	from {
+	}
+	20%,50% {
+		transform: scale(1.08,1.08);
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+		transform: rotateZ(40deg) scale(0.6,0.6);
 	}
 }

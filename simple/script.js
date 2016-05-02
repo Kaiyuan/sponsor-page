@@ -159,11 +159,13 @@ jQuery(document).ready(function() {
 	});
 
 	MainBox.click(function(event) {
-		MainBox.removeClass('showQR');
+		MainBox.removeClass('showQR').addClass('hideQR');
 		setTimeout (function(a) {
-			QRBox.fadeOut(300);
+			QRBox.fadeOut(300,function(argument) {
+				MainBox.removeClass('hideQR');
+			});
 			$('#DonateText,#donateBox,#github').removeClass('blur');
-		},300);
+		},600);
 
 	});
 });
