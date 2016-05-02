@@ -6,7 +6,7 @@
 
 #### 直接 Fork 之后需要修改以下内容为你的账户
 
-  /simple/script.js:4-6 `showQR('images/BTCQR.png');  //对应账户的二维码路径`
+  /simple/script.js:4-6 对应账户的二维码路径
 
   /simple/script.js:8  `var ppbusiness	=	"你的 PayPal 账号";  //建议用Unicode`
 
