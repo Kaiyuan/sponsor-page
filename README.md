@@ -20,7 +20,7 @@
 #### 使用 `iframe` 嵌入页面的代码，高度至少 `240px`，宽度至少 `310px`！
 
 ```
-<iframe src="https://kaiyuan.github.io/donate-page/simple/?item=easy-select-style" style="overflow-x:hidden;overflow-y:hidden; border:0xp none #fff; min-height:240px; width='100%'"  frameborder="0" scrolling="no"></iframe>
+<iframe src="https://kaiyuan.github.io/donate-page/simple/?item=easy-select-style" style="overflow-x:hidden;overflow-y:hidden; border:0xp none #fff; min-height:240px; width:100%;"  frameborder="0" scrolling="no"></iframe>
 ```
 
 ### License
