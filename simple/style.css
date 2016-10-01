@@ -54,6 +54,18 @@ a{
 	z-index: -1;
 	transform: rotatez(-15deg );
 }
+/*#DonateText::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: " ";
+	width: 70px;
+	height: 70px;
+	background: url(/images/BOXKS-Round.svg) no-repeat center center;
+	background-size: contain;
+	opacity: 0.05;
+	z-index: -1;
+}*/
 #donateBox {
 	left: calc(50% - 150px);
 	top: calc(50% - 15px);
@@ -91,10 +103,11 @@ a{
 }
 #donateBox>li:first-child {
 	border-width: 0;
+	/*border-radius: 6px 0 0 6px;*/
 }
-#donateBox a {
-	display: block;
-}
+/*#donateBox>li:last-child {
+	border-radius: 0 6px 6px 0;
+}*/
 #donateBox #PayPal {
 	background-image: url(images/paypal.svg);
 }
