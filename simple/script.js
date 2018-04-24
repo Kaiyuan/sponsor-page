@@ -3,7 +3,7 @@ jQuery(document).ready(function() {
 	var MainBox	=	$('#MainBox');
 	var BTCQR	=	'images/BTCQR.png';	// 二维码路径
 	var AliPayQR	=	'images/AliPayQR.png';
-	var WeChanQR	=	'images/WeChanQR.png';
+	var WeChanQR	=	'images/WeChanSQ.png';
 
 	
 
