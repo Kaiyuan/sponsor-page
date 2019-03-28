@@ -141,7 +141,7 @@ li[id$="_donate"]:hover::after {
     opacity: 0;
     transition: all .3s ease-out;
 }
-#drinks-button-box:hover #github-box {
+#drinks-button-box:hover #github-box, #drinks-button-box.Mobile #github-box {
     top: calc(50% - 40px);
     right: 64px;
     transform: rotatez(5deg );

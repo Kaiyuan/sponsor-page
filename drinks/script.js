@@ -56,10 +56,13 @@ drinks_an[3] = function(){
     // console.log('donate-animation-4');
 }
 
+if (isMobile) {
+    donate_buttons.addClass('Mobile');
+}
+
 icon_donate.on('click',drinks_an[0]); // drinks 图标点击
 
 donate_button_bg.on('click',drinks_an[1]); // 隐藏 donate box
-
 
 donate_button.on('click',function(){
     var thisID = $(this).attr("id");
