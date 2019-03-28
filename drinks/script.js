@@ -68,7 +68,7 @@ donate_button.on('click',function(){
     var thisID = $(this).attr("id");
     if (isMobile && thisID === 'alipay_donate') {
         // 当前网页在手机端打开跳转到支付宝 App
-        window.location.href=qrcodes['alipay_donate_link'];
+        window.open(qrcodes['alipay_donate_link']);
     } else {
         // 当前网页在PC端打开
     drinks_qrcode.css({'background-image' : 'url('+qrcodes[thisID]+')'});
