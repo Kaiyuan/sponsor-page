@@ -4,13 +4,13 @@
 
 ---
 
-## [Simple](https://github.com/Kaiyuan/donate-page/tree/gh-pages/simple)
+## [Simple](https://kaiyuan.github.io/donate-page/simple/)
 
 ![Donate Page Simple](https://i.imgur.com/AyAMkjR.gif)
 
 ---
 
-## [Drinks](https://github.com/Kaiyuan/donate-page/tree/gh-pages/drinks)
+## [Drinks](https://kaiyuan.github.io/donate-page/drinks/)
 ![Donate Page Drinks](https://i.imgur.com/D0QexBl.gif)
 
 ---
