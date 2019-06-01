@@ -2,6 +2,8 @@
 
 这是一系列整理好的捐赠按钮样式。
 
+<img src =“https://opencollective.com/kaiyuan/tiers/backer/badge.svg?label=backer&color=brightgreen”/> 
+
 ---
 
 ## [Simple](https://kaiyuan.github.io/donate-page/simple/)
