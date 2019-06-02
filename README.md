@@ -1,4 +1,4 @@
-# Donate-Page
+# Sponsor-Page
 
 这是一系列整理好的捐赠按钮样式。
 
@@ -6,13 +6,13 @@
 
 ---
 
-## [Simple](https://kaiyuan.github.io/donate-page/simple/)
+## [Simple](https://kaiyuan.github.io/sponsor-page/simple/)
 
 ![Donate Page Simple](https://i.imgur.com/AyAMkjR.gif)
 
 ---
 
-## [Drinks](https://kaiyuan.github.io/donate-page/drinks/)
+## [Drinks](https://kaiyuan.github.io/sponsor-page/drinks/)
 ![Donate Page Drinks](https://i.imgur.com/D0QexBl.gif)
 
 ---
